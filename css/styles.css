@@ -57,6 +57,16 @@ footer.footer{
 .rsociais span, .row p{
 	color:white;
 }
+
+@media (max-width: 768px) {
+	div#photo{
+	margin: 0 auto 15px;
+
+
+}
+	
+}
+
 @media (max-width: 580px) {
 
 div#photo{
