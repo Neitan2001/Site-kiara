@@ -1,0 +1,77 @@
+body {
+	font-size: 16px;
+}
+
+#header-nav {
+	background-color: #A5A2A2;
+	border-radius: 0;
+	border: 0;
+}
+
+
+.navbar-brand{
+	margin-top: -40px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid ;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: 50px;
+}
+
+#nav-list{
+	margin-top: 50px;
+}
+
+div#photo {
+ background-image: url("../Imagens/exemplo.jpg");
+ background-position: center;
+	width:226px; 
+	height:320px;
+	border: 2px solid black;
+	margin-bottom: 15px;
+}
+
+footer.footer{
+	background-color: #222;
+}
+
+.rsociais ul{
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+}
+
+.rsociais a{
+	text-decoration: none;
+}
+
+.rsociais span, .row p{
+	color:white;
+}
+@media (max-width: 580px) {
+
+div#photo{
+	margin: 0 auto 15px;
+
+
+}
+	.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+	clear:both;
+  }
+	
+}
