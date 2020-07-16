@@ -10,13 +10,21 @@ body {
 
 
 .navbar-brand{
-	margin-top: -40px;
-}
-
-.navbar-brand {
+	
+	margin-top: -30px;
 	padding-top: 25px;
+	
+	
+}
+
+#list-background{
+	margin-top: 20px;
+	border: 2px solid black;
 
 }
+
+
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid ;
@@ -28,7 +36,16 @@ body {
 }
 
 #nav-list{
-	margin-top: 50px;
+	margin-top: 0px;
+	list-style: none;
+	float: left;
+}
+
+#nav-list li{
+	text-align: center;
+	padding:10px;
+	margin: 20px;
+	border: 2px solid black;
 }
 
 div#photo {
@@ -64,8 +81,7 @@ footer.footer{
 
 
 }
-	
-}
+
 
 @media (max-width: 580px) {
 
